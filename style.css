@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.balloon-animation{
+    position: relative;
+    background-color: rgb(39, 39, 177);
+    height: 100vh;
+    width: 100%;
+}
+
+.flaying-clound{
+    position: absolute;
+    width: 20%;
+}
+
+.flaying-balloon{
+    position: absolute;
+    width: 15%;
+    top: 20%;
+    left: 50%;
+}
+
+.flaying-clound:nth-child(1) {
+    left: 20%;
+    top: 30%;
+}
+
+.flaying-clound:nth-child(2) {
+    left: 24%;
+    /* top: 30%; */
+}
+
+.flaying-clound:nth-child(3) {
+    left: 33%;
+    top: 25%;
+    z-index: 1;
+}
+
+.flaying-clound:nth-child(4) {
+    left: 60%;
+    top: 30%; 
+}
+
+.flaying-clound:nth-child(5) {
+    left: 20%;
+    top: 25%;
+    z-index: 1;
+}
+
+.flaying-clound:nth-child(6) {
+    left: 20%;
+    top: 30%;
+}
